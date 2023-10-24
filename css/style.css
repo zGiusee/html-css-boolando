@@ -17,9 +17,14 @@
     justify-content: flex-end;
 }
 
-.row-padding{
+.sm-row-padding{
     padding: 15px 0;
 }
+
+.row-padding{
+    padding: 40px 0;
+}
+
 
 .row-gap{
     gap: 20px 20px;
@@ -54,15 +59,23 @@
 
 /* LIST CUSTOMIZATION */
 
-.header-ul{
+ul{
     display: inline;
-
+    list-style: none;
 }
 
-.header-li{
+li{
     display: inline;
+}
+
+header li{
     padding: 0px 3px;
 }
+
+.li-paddindg-x{
+    padding: 0px 3px;
+}
+
 
 /* CATALOG CUSTOMIZATION */
 
@@ -93,6 +106,18 @@ div > .fa-heart{
     padding: 5px 8px;
 }
 
+/* HOOVER CUSTOMIZATION */
+
+.show{
+    display: block;
+}
+
+.hidden{
+    display: none;
+}
+
+
+
 /* POSITION TAGS */
 
 .align-center{
@@ -120,6 +145,10 @@ div > .fa-heart{
     display: block;
 }
 
+.padding-y{
+    padding: 15px 0px;
+}
+
 .margin-y{
     margin: 150px 0px;
 }
@@ -134,6 +163,10 @@ div > .fa-heart{
     font-family: 'Roboto', sans-serif;
 }
 
+.sm-font{
+    font-size: 13px
+}
+
 a{
     text-decoration: none;
     color: white;
@@ -141,6 +174,14 @@ a{
 
 .text-center{
     text-align: center;
+}
+
+.text-end{
+    text-align: end;
+}
+
+.text-v-a{
+    vertical-align: middle;
 }
 
 .white-text-style{
