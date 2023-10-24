@@ -50,8 +50,19 @@
     margin: 0 auto;
 }
 
+/* CATALOG CUSTOMIZATION */
+
+.heart{
+    position: absolute;
+    top: 5px;
+    right: 0px;
+}
 
 /* POSITION TAGS */
+
+.p-relative{
+    position: relative;
+}
 
 .p-fixed{
     position: fixed;
@@ -75,8 +86,24 @@
 
 /* TEXT SETTINGS */
 
+*{
+    font-family: 'Roboto', sans-serif;
+}
+
 .text-center{
     text-align: center;
+}
+
+.b-style{
+    font-weight: 600;
+}
+
+.sales.style{
+    color: red;
+}
+
+.previos-price{
+    text-decoration: line-through;
 }
 
 /* WIDTH TAGS */
@@ -113,6 +140,10 @@
 
 
 /* COLORS */
+
+.white{
+    color: white;
+}
 
 .bg-orange{
     background-color: #FF6900;
