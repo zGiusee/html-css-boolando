@@ -35,9 +35,8 @@
 
 /* CONTAINER */
 
-.img-size{
-    height: 600px;
-    width: 400px;
+img{
+    max-width: 100%;
 }
 
 .container-fluid{
@@ -77,6 +76,16 @@ header li{
 
 
 /* CATALOG CUSTOMIZATION */
+
+.product{
+
+}
+
+.img-size{
+    height: 600px;
+    width: 400px;
+}
+
 
 div > .fa-heart{
     position: absolute;
@@ -125,7 +134,6 @@ div > .fa-heart{
 
 /* HOOVER CUSTOMIZATION */
 
-
 .show{
     display: block;
 }
@@ -134,18 +142,17 @@ div > .fa-heart{
     display: none;
 }
 
-.show:hover .hidden{
+.product:hover .hidden{
     display: block;
 }
 
-.hidden:hover .show{
+.product:hover .show{
     display: none;
 }
 
-.fa-heart:hover {
+.red-heart:hover {
     color: red;
 }
-
 
 
 /* TEXT SETTINGS */
