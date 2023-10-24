@@ -4,14 +4,61 @@
     box-sizing: border-box;
 }
 
+/* ROW */
+
+.row{
+   display: flex;
+   justify-content: center;
+   align-content: center;
+   margin: 0 auto;
+}
+
+/* CONTAINER */
+
+.container-fluid{
+    width: 100%;
+    position: fixed;
+    
+}
 
 
 
+/* POSITION TAGS */
 
+.d-flex{
+    display: flex;
 
+}
+
+.justify-center{
+    justify-content: center;
+}
+
+/* TEXT SETTINGS */
+
+.text-center{
+    text-align: center;
+}
+
+/* WIDTH TAGS */
+
+.max-width80{
+    max-width: 80%;
+}
 
 /* COLUMNS */
 
+.col-70{
+    width: calc(70%);
+}
+
+.col-30{
+    width: calc(30%);
+}
 
 
 /* COLORS */
+
+.bg-orange{
+    background-color: #FF6900;
+}
