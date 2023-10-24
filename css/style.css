@@ -25,6 +25,8 @@
     flex-wrap: wrap;
 }
 
+
+
 /* .square{
     height: 500px;
     width: 400px;
@@ -33,6 +35,11 @@
 } */
 
 /* CONTAINER */
+
+.img-size{
+    height: 600px;
+    width: 400px;
+}
 
 .container-fluid{
     width: 100%;
@@ -74,6 +81,10 @@
 
 /* WIDTH TAGS */
 
+.max-width100{
+    max-width: 100%;
+}
+
 .max-width80{
     max-width: 80%;
 }
@@ -89,7 +100,7 @@
 }
 
 .col-3{
-    width: calc(100% / 3 -30px);
+    width: calc(100% / 3 -20px);
 }
 
 .col-70{
