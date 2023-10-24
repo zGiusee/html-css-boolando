@@ -13,14 +13,32 @@
    margin: 0 auto;
 }
 
+.row-gap{
+    gap: 20px 20px;
+}
+
+.flex-wrap{
+    flex-wrap: wrap;
+}
+
+.square{
+    height: 500px;
+    width: 400px;
+    background-color: #FF6900;
+
+}
+
 /* CONTAINER */
 
 .container-fluid{
     width: 100%;
     position: fixed;
-    
 }
 
+.container{
+    display: flex;
+    margin: 0 auto;
+}
 
 
 /* POSITION TAGS */
@@ -32,6 +50,14 @@
 
 .justify-center{
     justify-content: center;
+}
+
+.d-block{
+    display: block;
+}
+
+.margin-y{
+    margin: 150px 0px;
 }
 
 /* TEXT SETTINGS */
@@ -47,6 +73,14 @@
 }
 
 /* COLUMNS */
+
+.col{
+    width: calc(100%);
+}
+
+.col-3{
+    width: calc(100% / 3 -30px);
+}
 
 .col-70{
     width: calc(70%);
