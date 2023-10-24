@@ -25,9 +25,8 @@
     padding: 40px 0;
 }
 
-
 .row-gap{
-    gap: 20px 20px;
+    gap: 40px 20px;
 }
 
 .flex-wrap{
@@ -106,7 +105,26 @@ div > .fa-heart{
     padding: 5px 8px;
 }
 
+/* TEXT CATALOG CUSTOMIZATION */
+
+.brand-text{
+  font-size: 14px;
+  font-weight: 100;
+}
+
+.item-text{
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.price-tag{
+    font-weight: 500;
+    font-size: 13px;
+
+}
+
 /* HOOVER CUSTOMIZATION */
+
 
 .show{
     display: block;
@@ -116,7 +134,59 @@ div > .fa-heart{
     display: none;
 }
 
+.show:hover .hidden{
+    display: block;
+}
 
+.hidden:hover .show{
+    display: none;
+}
+
+.fa-heart:hover {
+    color: red;
+}
+
+
+
+/* TEXT SETTINGS */
+
+*{
+    font-family: 'Roboto', sans-serif;
+}
+
+.sm-font{
+    font-size: 13px
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.text-end{
+    text-align: end;
+}
+
+.text-v-a{
+    vertical-align: middle;
+}
+
+.white-text-style{
+    font-weight: 600;
+    color: white;
+}
+
+.sales-style{
+    color: red;
+}
+
+.previous-price{
+    text-decoration: line-through;
+}
 
 /* POSITION TAGS */
 
@@ -155,46 +225,6 @@ div > .fa-heart{
 
 .l-50px{
     left: 50px;
-}
-
-/* TEXT SETTINGS */
-
-*{
-    font-family: 'Roboto', sans-serif;
-}
-
-.sm-font{
-    font-size: 13px
-}
-
-a{
-    text-decoration: none;
-    color: white;
-}
-
-.text-center{
-    text-align: center;
-}
-
-.text-end{
-    text-align: end;
-}
-
-.text-v-a{
-    vertical-align: middle;
-}
-
-.white-text-style{
-    font-weight: 600;
-    color: white;
-}
-
-.sales-style{
-    color: red;
-}
-
-.previos-price{
-    text-decoration: line-through;
 }
 
 /* WIDTH TAGS */
