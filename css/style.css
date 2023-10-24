@@ -52,10 +52,31 @@
 
 /* CATALOG CUSTOMIZATION */
 
-.heart{
+.fa-heart{
     position: absolute;
-    top: 5px;
+    top: 10px;
     right: 0px;
+    background-color: white;
+    padding: 30px 15px;
+}
+
+.sales{
+    position: absolute;
+    bottom: 50px;
+    left: 0;
+    background-color: red;
+    color: white;
+    font-size: 12px;
+    padding: 5px 8px;
+}
+
+.sustainable{
+    position: absolute;
+    bottom: 50px;
+    background-color: #008000;
+    color: white;
+    font-size: 12px;
+    padding: 5px 8px;
 }
 
 /* POSITION TAGS */
@@ -84,6 +105,10 @@
     margin: 150px 0px;
 }
 
+.l-50px{
+    left: 50px;
+}
+
 /* TEXT SETTINGS */
 
 *{
@@ -94,11 +119,11 @@
     text-align: center;
 }
 
-.b-style{
+.bold-style{
     font-weight: 600;
 }
 
-.sales.style{
+.sales-style{
     color: red;
 }
 
