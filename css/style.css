@@ -13,6 +13,10 @@
    margin: 0 auto;
 }
 
+.justify-end{
+    justify-content: flex-end;
+}
+
 .row-gap{
     gap: 20px 20px;
 }
@@ -32,7 +36,6 @@
 
 .container-fluid{
     width: 100%;
-    position: fixed;
 }
 
 .container{
@@ -43,9 +46,12 @@
 
 /* POSITION TAGS */
 
+.p-fixed{
+    position: fixed;
+}
+
 .d-flex{
     display: flex;
-
 }
 
 .justify-center{
@@ -74,7 +80,11 @@
 
 /* COLUMNS */
 
-.col{
+.col-50{
+    width: calc(50%);
+}
+
+.col-100{
     width: calc(100%);
 }
 
@@ -95,4 +105,8 @@
 
 .bg-orange{
     background-color: #FF6900;
+}
+
+.bg-black{
+    background-color: #1A1A1A;
 }
